@@ -1,0 +1,69 @@
+.mainDiv {
+  font-family: "Verdana", serif;
+  border: 1px solid #000000;
+}
+.mainDiv__card {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 7%;
+  position: relative;
+  border: 1px solid #000000;
+  margin: 10px;
+}
+.mainDiv__card--button {
+  border: 4px solid #000000;
+  font-size: 14px;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-block;
+}
+.mainDiv__card--text {
+  font-size: 18px;
+}
+.mainDiv__card--textTime {
+  font-style: italic;
+  color: gray;
+  font-size: 11px;
+}
+.mainDiv__cardGreen {
+  background-color: #52ce90;
+  text-align: center;
+  padding: 7%;
+  position: relative;
+  border: 1px solid #FFFFFF;
+  margin: 10px;
+  color: #FFFFFF;
+}
+.mainDiv__cardGreen--button {
+  border: 4px solid #FFFFFF;
+  font-size: 14px;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-block;
+  background-color: #52ce90;
+  color: #FFFFFF;
+}
+.mainDiv__cardGreen--text {
+  font-size: 18px;
+}
+.mainDiv__cardGreen--textTime {
+  font-style: italic;
+  color: #FFFFFF;
+  font-size: 11px;
+}
+
+.fullBar {
+  background-color: gray;
+  height: 5px;
+  width: 100%;
+}
+
+.progBar {
+  background-color: #42d4f4;
+  height: 5px;
+  width: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */

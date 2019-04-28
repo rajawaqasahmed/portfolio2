@@ -1,0 +1,66 @@
+@import "variables";
+body {
+    background-image: url(../images/background_img.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'roboto', san-serif, medium;
+
+}
+input{
+    border: 2px $mypurple solid !important;
+}
+.first-char {
+    float: left;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: san-serif;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.my_h1 {
+    color: black !important;
+    font-size: 48px;
+    font-family: 'srisakdi', cursive;
+    padding: 2%;
+    
+}
+
+.my-h2 {
+     color: $mypurple !important;
+    &:hover{
+        color: $myblack !important;
+        font-family: 'roboto', san-serif, black;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .my_h1{
+        font-size:24px;
+    }
+    .my-h2 {
+        font-size:18px;
+        &:hover {
+            color: $myblack !important;
+            font-family: 'roboto', san-serif, black;
+
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .my_h1{
+        font-size:30px;
+    }
+    .my-h2 {
+        font-size:20px;
+        &:hover {
+            color: $myblack !important;
+            font-family: 'roboto', san-serif, black;
+
+        }
+    }
+}

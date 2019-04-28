@@ -1,0 +1,33 @@
+.container{
+    padding-top: 40px !important;
+}
+
+.input{
+    &-search {
+        width: 100%;
+    }
+    &-button {
+        width: 100%;
+    }
+    &-group.md-form.form-sm.form-1 input{
+        border: 1px solid #921515;
+    }
+}
+.row-format{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.card{
+    &-button{
+        width: 100%;
+    }
+    &-myCard{
+        margin: 20px;
+        text-align: center;
+    }
+    &-header{
+        border-top: solid 10px #921515;
+    }
+}
+

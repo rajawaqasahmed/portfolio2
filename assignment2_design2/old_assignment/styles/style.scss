@@ -1,0 +1,105 @@
+@import "blocktags";
+@import "variables";
+
+.nav{
+    &bar {
+        box-shadow: 5px 5px 5px 5px grey !important;
+        &-light{
+            background-color: $mygrey !important;
+            border: none !important;
+        }
+        &:hover{
+            box-shadow: 5px 5px 5px 5px $myblack !important;
+        }
+    }
+    &-link{
+        color: $mypurple !important;
+        &:hover{
+            color: black !important;
+        }
+    }
+    
+}
+
+.inner {
+    position: relative;
+    height: 300px;
+    background: url('../images/decor2.jpeg') center center no-repeat;
+    background-size: cover;
+    &:before {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to  right,white,$mypurple);
+        opacity: 0.4;
+        content: '';
+        position: absolute;
+    }
+    text-align: center;
+}
+
+.my-card {
+    border: solid 1px $mypurple !important;
+    text-align: center !important;
+    display: table !important;
+    margin: auto !important;
+    width: 85%;
+    &-image {
+        width: 100%;
+        height: inherit;
+    }
+    &:hover{
+        box-shadow: 2px 2px 2px 2px grey;
+    }
+    &-button {
+        background-color: $mypurple;
+        color: white !important;
+        width: 100%;
+        &:hover{
+            color: black !important;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+
+    }
+}
+
+
+.card-body, .card-header, .card-footer {
+        padding: 1px !important;
+        margin: 1px !important;
+    }
+.myfooter{
+    background-color: $mypurple;
+    color: $mygrey !important;
+    height: 70px;
+    vertical-align: middle;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+.my-text-color {
+    color: $mypurple;
+}
+.my-text-color:hover{
+    color: black !important;
+}
+
+@media screen and (max-width: 768px) {
+    .inner{
+        height: 100px;
+    }
+    .card-body, .card-header, .card-footer {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .inner{
+        height: 100px;
+    }
+    .card-body, .card-header, .card-footer {
+        padding: 1px !important;
+        margin: 1px !important;
+    }
+}
